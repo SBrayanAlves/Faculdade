@@ -1,0 +1,15 @@
+# Repositório PÚBLICO: sobe só os resumos por bimestre e o README.
+# Ficam de fora: notas pessoais (Situação, painéis, Claude.md), PDFs e
+# documentos dos professores (direito autoral), prints e transcrições de
+# questões do Moodle (avaliação) e projetos em grupo.
+
+# 1) ignora tudo
+*
+
+# 2) deixa o git entrar nas pastas
+!*/
+
+# 3) libera só o que é público
+!/.gitignore
+!/README.md
+!**/Resumos/*Bimestre.md
